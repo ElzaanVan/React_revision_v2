@@ -1,0 +1,42 @@
+* {
+  font-family: monospace;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.income_expense_container {
+  display: inline-flex;
+  gap: 5px;
+}
+
+.i-e-container {
+  background-color: white;
+  padding: 0 35px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #c9c9c9;
+}
+
+button.delete-btn {
+  margin-top: 0;
+  padding: 0 3px 1px 3px;
+  margin-right: 10px;
+  float: left;
+  font-size: 10px;
+}
+ul#list {
+  text-align: center;
+  display: inline-table;
+  padding: 0;
+  list-style: none;
+}
+li.minus {
+  width: fit-content;
+  margin: auto;
+  padding-right: 2px;
+  border-right: 3px solid red;
+}
