@@ -34,11 +34,22 @@ ul#list {
   padding: 0;
   list-style: none;
 }
-li.minus {
-  width: fit-content;
+.minus {
   margin: auto;
   padding-right: 2px;
   border-right: 3px solid red;
+}
+.plus {
+  margin: auto;
+  padding-right: 2px;
+  border-right: 3px solid rgb(27, 197, 27);
+}
+li {
+  background: white;
+  margin-bottom: 5px !important;
+  padding: 6px 5px;
+  text-align: left;
+  border-radius: 5px;
 }
 label {
   display: block;
@@ -49,13 +60,22 @@ input {
   border: 1px solid #c9c9c9;
   padding: 5px 10px;
 }
+.amount {
+  float: right;
+  margin-left: 5px;
+  margin-right: 2px;
+}
 
 input[type="submit"] {
   margin-top: 15px;
 }
 p#money-minus {
   color: red;
+  border: none;
+  padding-bottom: 10px;
 }
 p#money-plus {
-  color: green;
+  color: rgb(27, 197, 27);
+  border: none;
+  padding-bottom: 10px;
 }
